@@ -1,0 +1,43 @@
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+body{
+	box-sizing: border-box;
+}
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 1440px;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+input:focus{
+	outline: none;
+}
+select:focus{
+	outline: none;
+}
+option{
+	border: none;
+	background-color: #2B2B2B;
+	max-height: 10px;
+	min-width: 12px;
+}
+
+
+
+
+
