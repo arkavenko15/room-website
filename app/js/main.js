@@ -10,5 +10,6 @@ $(function () {
     $(".footer__scroll-btn").click(function() {
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
-    });    
+    }); 
+   
 })
